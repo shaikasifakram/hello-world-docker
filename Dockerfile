@@ -1,5 +1,5 @@
 FROM openjdk
-COPY helloworld.java helloworld.java
-RUN javac helloworld.java
-CMD java helloworld
+COPY Helloworld.java Helloworld.java
+RUN javac Helloworld.java
+CMD java Helloworld
 
